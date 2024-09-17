@@ -93,21 +93,21 @@ const BestSeller = defineComponent({
         dataIndex: "company",
         key: "company",
       },
-      {
-        title: "Product",
-        dataIndex: "product",
-        key: "product",
-      },
+      // {
+      //   title: "Product",
+      //   dataIndex: "product",
+      //   key: "product",
+      // },
       {
         title: "Revenue",
         dataIndex: "revenue",
         key: "revenue",
       },
-      {
-        title: "Status",
-        dataIndex: "status",
-        key: "status",
-      },
+      // {
+      //   title: "Status",
+      //   dataIndex: "status",
+      //   key: "status",
+      // },
     ];
     const sellerTab = ref("today");
     const bestSellerData = computed(() => {
